@@ -1,0 +1,72 @@
+[
+    {
+        "wiskunde":90,
+        "geschiedenis":69,
+        "nederlands":21,
+        "engels":78,
+        "name":"<a href=\"chattemplate.blade.php\"><u>Erik</u></a>"
+    },
+    {
+        "wiskunde":80,
+        "geschiedenis":36,
+        "nederlands":50,
+        "engels":24,
+        "name":"<a href=\"chattemplate.blade.php\"><u>Bob</u></a>"
+    },
+    {
+        "wiskunde":64,
+        "geschiedenis":45,
+        "nederlands":40,
+        "engels":60,
+        "name":"<a href=\"chattemplate.blade.php\"><u>Ellen</u></a>"
+    },
+    {
+        "wiskunde":70,
+        "geschiedenis":36,
+        "nederlands":84,
+        "engels":55,
+        "name":"<a href=\"chattemplate.blade.php\"><u>Wesley</u></a>"
+    },
+    {
+        "wiskunde":60,
+        "geschiedenis":80,
+        "nederlands":40,
+        "engels":27,
+        "name":"<a href=\"chattemplate.blade.php\"><u>Ramon</u></a>"
+    },
+    {
+        "wiskunde":68,
+        "geschiedenis":70,
+        "nederlands":24,
+        "engels":42,
+        "name":"<a href=\"chattemplate.blade.php\"><u>Julia</u></a>"
+    },
+    {
+        "wiskunde":80,
+        "geschiedenis":36,
+        "nederlands":80,
+        "engels":74,
+        "name":"<a href=\"chattemplate.blade.php\"><u>Eva</u></a>"
+    },
+    {
+        "wiskunde":75,
+        "geschiedenis":48,
+        "nederlands":40,
+        "engels":59,
+        "name":"<a href=\"chattemplate.blade.php\"><u>Bas</u></a>"
+    },
+    {
+        "wiskunde":47,
+        "geschiedenis":54,
+        "nederlands":86,
+        "engels":39,
+        "name":"<a href=\"chattemplate.blade.php\"><u>Maaike</u></a>"
+    },
+    {
+        "wiskunde":80,
+        "geschiedenis":87,
+        "nederlands":40,
+        "engels":46,
+        "name":"<a href=\"chattemplate.blade.php\"><u>Marlous</u></a>"
+    }
+]

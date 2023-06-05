@@ -3,24 +3,28 @@ let feedback = document.getElementById("feedback")
 let feedback2 = document.getElementById("feedback2")
 let feedback3 = document.getElementById("feedback3")
 let feedback4 = document.getElementById("feedback4")
+let machine
 
-const data = [
-    { wiskunde: 20, geschiedenis: 69, nederlands: 21, engels: 78, name: '<a href="chattemplate.blade.php"><u>Erik</u></a>' },
-    { wiskunde: 80, geschiedenis: 36, nederlands: 50, engels: 24, name: '<a href="chattemplate.blade.php"><u>Bob</u></a>' },
-    { wiskunde: 64, geschiedenis: 45, nederlands: 40, engels: 60, name: '<a href="chattemplate.blade.php"><u>Ellen</u></a>' },
-    { wiskunde: 70, geschiedenis: 36, nederlands: 84, engels: 55, name: '<a href="chattemplate.blade.php"><u>Wesley</u></a>' },
-    { wiskunde: 60, geschiedenis: 80, nederlands: 40, engels: 27, name: '<a href="chattemplate.blade.php"><u>Ramon</u></a>' },
-    { wiskunde: 68, geschiedenis: 70, nederlands: 24, engels: 42, name: '<a href="chattemplate.blade.php"><u>Julia</u></a>' },
-    { wiskunde: 80, geschiedenis: 36, nederlands: 80, engels: 74, name: '<a href="chattemplate.blade.php"><u>Eva</u></a>' },
-    { wiskunde: 75, geschiedenis: 48, nederlands: 40, engels: 59, name: '<a href="chattemplate.blade.php"><u>Bas</u></a>' },
-    { wiskunde: 47, geschiedenis: 54, nederlands: 86, engels: 39, name: '<a href="chattemplate.blade.php"><u>Maaike</u></a>' },
-    { wiskunde: 80, geschiedenis: 87, nederlands: 40, engels: 46, name: '<a href="chattemplate.blade.php"><u>Marlous</u></a>' },
-]
-
-const machine = new kNear(1)
-for (let d of data) {
-    machine.learn([d.wiskunde, d.geschiedenis, d.nederlands, d.engels], d.name)
+function loadData() {
+    fetch("./students.php")
+        .then(response => response.json())
+        .then(data => {
+            console.log("loaded!");
+            console.log(data);
+            createMachine(data);
+        })
+        .catch(err => console.log(err));
 }
+
+// aanroepen nadat de data is geladen
+function createMachine(data) {
+    machine = new kNear(1);
+    for (let d of data) {
+        const { Wiskunde_A, Geschiedenis, Nederlands, Engels, Name } = d;
+        machine.learn([parseInt(Wiskunde_A), parseInt(Geschiedenis), parseInt(Nederlands), parseInt(Engels)], Name);
+    }
+}
+
 
 
 // waarden invullen voor een voorspelling
@@ -51,3 +55,6 @@ form.addEventListener("submit", (e) =>{
 // }))
 // const chartlabels = data.map(person => person.name)
 // createChart(chartdata, chartlabels, "wiskunde", "geschiedenis")
+
+
+loadData()
