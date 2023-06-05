@@ -10,6 +10,7 @@ class UserController extends Controller
 {
     public function index(){
         $users = User::all();
+<<<<<<< HEAD
         return view('index')->with('index', $users);
     }
 
@@ -19,6 +20,11 @@ class UserController extends Controller
     }
 
 
+=======
+        return view('user')->with('user', $users);
+    }
+
+>>>>>>> origin/master
     public function edit()
     {
         $user = auth()->user();
@@ -89,3 +95,7 @@ class UserController extends Controller
         return redirect('/home');
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
