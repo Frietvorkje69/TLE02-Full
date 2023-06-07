@@ -8,23 +8,20 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
-    public function index(){
+
+    public function index()
+    {
         $users = User::all();
-<<<<<<< HEAD
-        return view('index')->with('index', $users);
+        $user = auth()->user();
+
+        return view('user.index')->with(['users' => $users, 'user' => $user]);
     }
 
     public function json(){
         $users = User::all();
-        return view('students')->with('students', $users);
+        return view('user.students')->with('user', $users);
     }
 
-
-=======
-        return view('user')->with('user', $users);
-    }
-
->>>>>>> origin/master
     public function edit()
     {
         $user = auth()->user();
@@ -95,7 +92,4 @@ class UserController extends Controller
         return redirect('/home');
     }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
