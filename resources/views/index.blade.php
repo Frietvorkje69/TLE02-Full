@@ -16,13 +16,6 @@
 <section>
     <h1>STUDY BUDDY RECOMMENDER</h1>
     <p>Vul je cijfers in en vind een study buddy!</p>
-    <form id="form">
-        <input type="number" min="0" max="100" placeholder="wiskunde" />
-        <input type="number" min="0" max="100" placeholder="geschiedenis" />
-        <input type="number" min="0" max="100" placeholder="nederlands" />
-        <input type="number" min="0" max="100" placeholder="engels" />
-        <button type="submit">Find your match!</button>
-    </form>
     <div id="feedback"></div>
     <div id="feedback2"></div>
     <div id="feedback3"></div>

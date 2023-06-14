@@ -9,6 +9,14 @@ use Illuminate\Support\Facades\Hash;
 class UserController extends Controller
 {
 
+    public function chat()
+    {
+        $users = User::all();
+        $user = auth()->user();
+
+        return view('chat')->with(['users' => $users, 'user' => $user]);
+    }
+
     public function index()
     {
         $users = User::all();

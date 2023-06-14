@@ -15,6 +15,7 @@ if ($result) {
     while ($row = $result->fetch_assoc()) {
         $student = [
             'id' => $row['id'],
+            'email' => $row['email'],
             'name' => $row['name'],
             'wiskunde_A' => $row['wiskunde_a'],
             'geschiedenis' => $row['geschiedenis'],
