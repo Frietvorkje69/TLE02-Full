@@ -26,344 +26,344 @@ function createMachine(data) {
         //nederlands cases
         case "nederlands-engels":
             for (let d of data) {
-                const {nederlands, engels, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(engels)], id);
+                const {nederlands, engels, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(engels)], email);
             }
             break;
         case "nederlands-scheikunde":
             for (let d of data) {
-                const {nederlands, scheikunde, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(scheikunde)], id);
+                const {nederlands, scheikunde, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(scheikunde)], email);
             }
             break;
         case "nederlands-natuurkunde":
             for (let d of data) {
-                const {nederlands, natuurkunde, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(natuurkunde)], id);
+                const {nederlands, natuurkunde, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(natuurkunde)], email);
             }
             break;
         case "nederlands-biologie":
             for (let d of data) {
-                const {nederlands, biologie, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(biologie)], id);
+                const {nederlands, biologie, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(biologie)], email);
             }
             break;
         case "nederlands-filosofie":
             for (let d of data) {
-                const {nederlands, filosofie, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(filosofie)], id);
+                const {nederlands, filosofie, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(filosofie)], email);
             }
             break;
         case "nederlands-wiskunde_a":
             for (let d of data) {
-                const {nederlands, wiskunde_a, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(wiskunde_a)], id);
+                const {nederlands, wiskunde_a, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(wiskunde_a)], email);
             }
             break;
         case "nederlands-wiskunde_b":
             for (let d of data) {
-                const {nederlands, wiskunde_b, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(wiskunde_b)], id);
+                const {nederlands, wiskunde_b, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(wiskunde_b)], email);
             }
             break;
         case "nederlands-geschiedenis":
             for (let d of data) {
-                const {nederlands, geschiedenis, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(geschiedenis)], id);
+                const {nederlands, geschiedenis, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(geschiedenis)], email);
             }
             break;
         case "nederlands-duits":
             for (let d of data) {
-                const {nederlands, duits, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(duits)], id);
+                const {nederlands, duits, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(duits)], email);
             }
             break;
         case "nederlands-frans":
             for (let d of data) {
-                const {nederlands, frans, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(frans)], id);
+                const {nederlands, frans, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(frans)], email);
             }
             break;
         case "nederlands-spaans":
             for (let d of data) {
-                const {nederlands, spaans, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(spaans)], id);
+                const {nederlands, spaans, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(spaans)], email);
             }
             break;
         case "nederlands-aardrijkskunde":
             for (let d of data) {
-                const {nederlands, aardrijkskunde, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(aardrijkskunde)], id);
+                const {nederlands, aardrijkskunde, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(aardrijkskunde)], email);
             }
             break;
         case "nederlands-maatschappijleer":
             for (let d of data) {
-                const {nederlands, maatschappijleer, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(maatschappijleer)], id);
+                const {nederlands, maatschappijleer, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(maatschappijleer)], email);
             }
             break;
         case "nederlands-economie":
             for (let d of data) {
-                const {nederlands, economie, id} = d;
-                machine.learn([parseInt(nederlands), parseInt(economie)], id);
+                const {nederlands, economie, email} = d;
+                machine.learn([parseInt(nederlands), parseInt(economie)], email);
             }
             break;
 
         // engels cases
         case "engels-nederlands":
             for (let d of data) {
-                const {engels, nederlands, id} = d;
-                machine.learn([parseInt(engels), parseInt(nederlands)], id);
+                const {engels, nederlands, email} = d;
+                machine.learn([parseInt(engels), parseInt(nederlands)], email);
             }
             break;
         case "engels-scheikunde":
             for (let d of data) {
-                const {engels, scheikunde, id} = d;
-                machine.learn([parseInt(engels), parseInt(scheikunde)], id);
+                const {engels, scheikunde, email} = d;
+                machine.learn([parseInt(engels), parseInt(scheikunde)], email);
             }
             break;
         case "engels-natuurkunde":
             for (let d of data) {
-                const {engels, natuurkunde, id} = d;
-                machine.learn([parseInt(engels), parseInt(natuurkunde)], id);
+                const {engels, natuurkunde, email} = d;
+                machine.learn([parseInt(engels), parseInt(natuurkunde)], email);
             }
             break;
         case "engels-biologie":
             for (let d of data) {
-                const {engels, biologie, id} = d;
-                machine.learn([parseInt(engels), parseInt(biologie)], id);
+                const {engels, biologie, email} = d;
+                machine.learn([parseInt(engels), parseInt(biologie)], email);
             }
             break;
         case "engels-filosofie":
             for (let d of data) {
-                const {engels, filosofie, id} = d;
-                machine.learn([parseInt(engels), parseInt(filosofie)], id);
+                const {engels, filosofie, email} = d;
+                machine.learn([parseInt(engels), parseInt(filosofie)], email);
             }
             break;
         case "engels-wiskunde_a":
             for (let d of data) {
-                const {engels, wiskunde_a, id} = d;
-                machine.learn([parseInt(engels), parseInt(wiskunde_a)], id);
+                const {engels, wiskunde_a, email} = d;
+                machine.learn([parseInt(engels), parseInt(wiskunde_a)], email);
             }
             break;
         case "engels-wiskunde_b":
             for (let d of data) {
-                const {engels, wiskunde_b, id} = d;
-                machine.learn([parseInt(engels), parseInt(wiskunde_b)], id);
+                const {engels, wiskunde_b, email} = d;
+                machine.learn([parseInt(engels), parseInt(wiskunde_b)], email);
             }
             break;
         case "engels-geschiedenis":
             for (let d of data) {
-                const {engels, geschiedenis, id} = d;
-                machine.learn([parseInt(engels), parseInt(geschiedenis)], id);
+                const {engels, geschiedenis, email} = d;
+                machine.learn([parseInt(engels), parseInt(geschiedenis)], email);
             }
             break;
         case "engels-duits":
             for (let d of data) {
-                const {engels, duits, id} = d;
-                machine.learn([parseInt(engels), parseInt(duits)], id);
+                const {engels, duits, email} = d;
+                machine.learn([parseInt(engels), parseInt(duits)], email);
             }
             break;
         case "engels-frans":
             for (let d of data) {
-                const {engels, frans, id} = d;
-                machine.learn([parseInt(engels), parseInt(frans)], id);
+                const {engels, frans, email} = d;
+                machine.learn([parseInt(engels), parseInt(frans)], email);
             }
             break;
         case "engels-spaans":
             for (let d of data) {
-                const {engels, spaans, id} = d;
-                machine.learn([parseInt(engels), parseInt(spaans)], id);
+                const {engels, spaans, email} = d;
+                machine.learn([parseInt(engels), parseInt(spaans)], email);
             }
             break;
         case "engels-aardrijkskunde":
             for (let d of data) {
-                const {engels, aardrijkskunde, id} = d;
-                machine.learn([parseInt(engels), parseInt(aardrijkskunde)], id);
+                const {engels, aardrijkskunde, email} = d;
+                machine.learn([parseInt(engels), parseInt(aardrijkskunde)], email);
             }
             break;
         case "engels-maatschappijleer":
             for (let d of data) {
-                const {engels, maatschappijleer, id} = d;
-                machine.learn([parseInt(engels), parseInt(maatschappijleer)], id);
+                const {engels, maatschappijleer, email} = d;
+                machine.learn([parseInt(engels), parseInt(maatschappijleer)], email);
             }
             break;
         case "engels-economie":
             for (let d of data) {
-                const {engels, economie, id} = d;
-                machine.learn([parseInt(engels), parseInt(economie)], id);
+                const {engels, economie, email} = d;
+                machine.learn([parseInt(engels), parseInt(economie)], email);
             }
             break;
 
         //scheikunde cases
         case "scheikunde-nederlands":
             for (let d of data) {
-                const {scheikunde, nederlands, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(nederlands)], id);
+                const {scheikunde, nederlands, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(nederlands)], email);
             }
             break;
         case "scheikunde-engels":
             for (let d of data) {
-                const {scheikunde, engels, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(engels)], id);
+                const {scheikunde, engels, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(engels)], email);
             }
             break;
         case "scheikunde-natuurkunde":
             for (let d of data) {
-                const {scheikunde, natuurkunde, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(natuurkunde)], id);
+                const {scheikunde, natuurkunde, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(natuurkunde)], email);
             }
             break;
         case "scheikunde-biologie":
             for (let d of data) {
-                const {scheikunde, biologie, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(biologie)], id);
+                const {scheikunde, biologie, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(biologie)], email);
             }
             break;
         case "scheikunde-filosofie":
             for (let d of data) {
-                const {scheikunde, filosofie, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(filosofie)], id);
+                const {scheikunde, filosofie, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(filosofie)], email);
             }
             break;
         case "scheikunde-wiskunde_a":
             for (let d of data) {
-                const {scheikunde, filosofie, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(filosofie)], id);
+                const {scheikunde, filosofie, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(filosofie)], email);
             }
             break;
         case "scheikunde-wiskunde_b":
             for (let d of data) {
-                const {scheikunde, wiskunde_b, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(wiskunde_b)], id);
+                const {scheikunde, wiskunde_b, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(wiskunde_b)], email);
             }
             break;
         case "scheikunde-geschiedenis":
             for (let d of data) {
-                const {scheikunde, geschiedenis, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(geschiedenis)], id);
+                const {scheikunde, geschiedenis, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(geschiedenis)], email);
             }
             break;
         case "scheikunde-duits":
             for (let d of data) {
-                const {scheikunde, duits, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(duits)], id);
+                const {scheikunde, duits, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(duits)], email);
             }
             break;
         case "scheikunde-frans":
             for (let d of data) {
-                const {scheikunde, frans, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(frans)], id);
+                const {scheikunde, frans, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(frans)], email);
             }
             break;
         case "scheikunde-spaans":
             for (let d of data) {
-                const {scheikunde, spaans, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(spaans)], id);
+                const {scheikunde, spaans, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(spaans)], email);
             }
             break;
         case "scheikunde-aardrijkskunde":
             for (let d of data) {
-                const {scheikunde, aardrijkskunde, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(aardrijkskunde)], id);
+                const {scheikunde, aardrijkskunde, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(aardrijkskunde)], email);
             }
             break;
         case "scheikunde-maatschappijleer":
             for (let d of data) {
-                const {scheikunde, maatschappijleer, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(maatschappijleer)], id);
+                const {scheikunde, maatschappijleer, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(maatschappijleer)], email);
             }
             break;
         case "scheikunde-economie":
             for (let d of data) {
-                const {scheikunde, economie, id} = d;
-                machine.learn([parseInt(scheikunde), parseInt(economie)], id);
+                const {scheikunde, economie, email} = d;
+                machine.learn([parseInt(scheikunde), parseInt(economie)], email);
             }
             break;
 
         // natuurkunde cases
         case "natuurkunde-nederlands":
             for (let d of data) {
-                const {natuurkunde, nederlands, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(nederlands)], id);
+                const {natuurkunde, nederlands, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(nederlands)], email);
             }
             break;
         case "natuurkunde-engels":
             for (let d of data) {
-                const {natuurkunde, engels, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(engels)], id);
+                const {natuurkunde, engels, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(engels)], email);
             }
             break;
         case "natuurkunde-scheikunde":
             for (let d of data) {
-                const {natuurkunde, scheikunde, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(scheikunde)], id);
+                const {natuurkunde, scheikunde, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(scheikunde)], email);
             }
             break;
         case "natuurkunde-biologie":
             for (let d of data) {
-                const {natuurkunde, biologie, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(biologie)], id);
+                const {natuurkunde, biologie, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(biologie)], email);
             }
             break;
         case "natuurkunde-filosofie":
             for (let d of data) {
-                const {natuurkunde, filosofie, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(filosofie)], id);
+                const {natuurkunde, filosofie, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(filosofie)], email);
             }
             break;
         case "natuurkunde-wiskunde_a":
             for (let d of data) {
-                const {natuurkunde, filosofie, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(filosofie)], id);
+                const {natuurkunde, filosofie, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(filosofie)], email);
             }
             break;
         case "natuurkunde-wiskunde_b":
             for (let d of data) {
-                const {natuurkunde, wiskunde_b, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(wiskunde_b)], id);
+                const {natuurkunde, wiskunde_b, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(wiskunde_b)], email);
             }
             break;
         case "natuurkunde-geschiedenis":
             for (let d of data) {
-                const {natuurkunde, geschiedenis, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(geschiedenis)], id);
+                const {natuurkunde, geschiedenis, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(geschiedenis)], email);
             }
             break;
         case "natuurkunde-duits":
             for (let d of data) {
-                const {natuurkunde, duits, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(duits)], id);
+                const {natuurkunde, duits, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(duits)], email);
             }
             break;
         case "natuurkunde-frans":
             for (let d of data) {
-                const {natuurkunde, frans, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(frans)], id);
+                const {natuurkunde, frans, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(frans)], email);
             }
             break;
         case "natuurkunde-spaans":
             for (let d of data) {
-                const {natuurkunde, spaans, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(spaans)], id);
+                const {natuurkunde, spaans, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(spaans)], email);
             }
             break;
         case "natuurkunde-aardrijkskunde":
             for (let d of data) {
-                const {natuurkunde, aardrijkskunde, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(aardrijkskunde)], id);
+                const {natuurkunde, aardrijkskunde, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(aardrijkskunde)], email);
             }
             break;
         case "natuurkunde-maatschappijleer":
             for (let d of data) {
-                const {natuurkunde, maatschappijleer, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(maatschappijleer)], id);
+                const {natuurkunde, maatschappijleer, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(maatschappijleer)], email);
             }
             break;
         case "natuurkunde-economie":
             for (let d of data) {
-                const {natuurkunde, economie, id} = d;
-                machine.learn([parseInt(natuurkunde), parseInt(economie)], id);
+                const {natuurkunde, economie, email} = d;
+                machine.learn([parseInt(natuurkunde), parseInt(economie)], email);
             }
             break;
 
@@ -371,258 +371,258 @@ function createMachine(data) {
         //biologie cases
         case "biologie-nederlands":
             for (let d of data) {
-                const {biologie, nederlands, id} = d;
-                machine.learn([parseInt(biologie), parseInt(nederlands)], id);
+                const {biologie, nederlands, email} = d;
+                machine.learn([parseInt(biologie), parseInt(nederlands)], email);
             }
             break;
         case "biologie-engels":
             for (let d of data) {
-                const {biologie, engels, id} = d;
-                machine.learn([parseInt(biologie), parseInt(engels)], id);
+                const {biologie, engels, email} = d;
+                machine.learn([parseInt(biologie), parseInt(engels)], email);
             }
             break;
         case "biologie-scheikunde":
             for (let d of data) {
-                const {biologie, scheikunde, id} = d;
-                machine.learn([parseInt(biologie), parseInt(scheikunde)], id);
+                const {biologie, scheikunde, email} = d;
+                machine.learn([parseInt(biologie), parseInt(scheikunde)], email);
             }
             break;
         case "biologie-biologie":
             for (let d of data) {
-                const {biologie, natuurkunde, id} = d;
-                machine.learn([parseInt(biologie), parseInt(natuurkunde)], id);
+                const {biologie, natuurkunde, email} = d;
+                machine.learn([parseInt(biologie), parseInt(natuurkunde)], email);
             }
             break;
         case "biologie-filosofie":
             for (let d of data) {
-                const {biologie, filosofie, id} = d;
-                machine.learn([parseInt(biologie), parseInt(filosofie)], id);
+                const {biologie, filosofie, email} = d;
+                machine.learn([parseInt(biologie), parseInt(filosofie)], email);
             }
             break;
         case "biologie-wiskunde_a":
             for (let d of data) {
-                const {biologie, filosofie, id} = d;
-                machine.learn([parseInt(biologie), parseInt(filosofie)], id);
+                const {biologie, filosofie, email} = d;
+                machine.learn([parseInt(biologie), parseInt(filosofie)], email);
             }
             break;
         case "biologie-wiskunde_b":
             for (let d of data) {
-                const {biologie, wiskunde_b, id} = d;
-                machine.learn([parseInt(biologie), parseInt(wiskunde_b)], id);
+                const {biologie, wiskunde_b, email} = d;
+                machine.learn([parseInt(biologie), parseInt(wiskunde_b)], email);
             }
             break;
         case "biologie-geschiedenis":
             for (let d of data) {
-                const {biologie, geschiedenis, id} = d;
-                machine.learn([parseInt(biologie), parseInt(geschiedenis)], id);
+                const {biologie, geschiedenis, email} = d;
+                machine.learn([parseInt(biologie), parseInt(geschiedenis)], email);
             }
             break;
         case "biologie-duits":
             for (let d of data) {
-                const {biologie, duits, id} = d;
-                machine.learn([parseInt(biologie), parseInt(duits)], id);
+                const {biologie, duits, email} = d;
+                machine.learn([parseInt(biologie), parseInt(duits)], email);
             }
             break;
         case "biologie-frans":
             for (let d of data) {
-                const {biologie, frans, id} = d;
-                machine.learn([parseInt(biologie), parseInt(frans)], id);
+                const {biologie, frans, email} = d;
+                machine.learn([parseInt(biologie), parseInt(frans)], email);
             }
             break;
         case "biologie-spaans":
             for (let d of data) {
-                const {biologie, spaans, id} = d;
-                machine.learn([parseInt(biologie), parseInt(spaans)], id);
+                const {biologie, spaans, email} = d;
+                machine.learn([parseInt(biologie), parseInt(spaans)], email);
             }
             break;
         case "biologie-aardrijkskunde":
             for (let d of data) {
-                const {biologie, aardrijkskunde, id} = d;
-                machine.learn([parseInt(biologie), parseInt(aardrijkskunde)], id);
+                const {biologie, aardrijkskunde, email} = d;
+                machine.learn([parseInt(biologie), parseInt(aardrijkskunde)], email);
             }
             break;
         case "biologie-maatschappijleer":
             for (let d of data) {
-                const {biologie, maatschappijleer, id} = d;
-                machine.learn([parseInt(biologie), parseInt(maatschappijleer)], id);
+                const {biologie, maatschappijleer, email} = d;
+                machine.learn([parseInt(biologie), parseInt(maatschappijleer)], email);
             }
             break;
         case "biologie-economie":
             for (let d of data) {
-                const {biologie, economie, id} = d;
-                machine.learn([parseInt(biologie), parseInt(economie)], id);
+                const {biologie, economie, email} = d;
+                machine.learn([parseInt(biologie), parseInt(economie)], email);
             }
             break;
 
         //filosofie cases
         case "filosofie-nederlands":
             for (let d of data) {
-                const {filosofie, nederlands, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(nederlands)], id);
+                const {filosofie, nederlands, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(nederlands)], email);
             }
             break;
         case "filosofie-engels":
             for (let d of data) {
-                const {filosofie, engels, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(engels)], id);
+                const {filosofie, engels, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(engels)], email);
             }
             break;
         case "filosofie-scheikunde":
             for (let d of data) {
-                const {filosofie, scheikunde, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(scheikunde)], id);
+                const {filosofie, scheikunde, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(scheikunde)], email);
             }
             break;
         case "filosofie-natuurkunde":
             for (let d of data) {
-                const {filosofie, natuurkunde, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(natuurkunde)], id);
+                const {filosofie, natuurkunde, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(natuurkunde)], email);
             }
             break;
         case "filosofie-biologie":
             for (let d of data) {
-                const {filosofie, biologie, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(biologie)], id);
+                const {filosofie, biologie, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(biologie)], email);
             }
             break;
         case "filosofie-wiskunde_a":
             for (let d of data) {
-                const {filosofie, wiskunde_a, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(wiskunde_a)], id);
+                const {filosofie, wiskunde_a, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(wiskunde_a)], email);
             }
             break;
         case "filosofie-wiskunde_b":
             for (let d of data) {
-                const {filosofie, wiskunde_b, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(wiskunde_b)], id);
+                const {filosofie, wiskunde_b, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(wiskunde_b)], email);
             }
             break;
         case "filosofie-geschiedenis":
             for (let d of data) {
-                const {filosofie, geschiedenis, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(geschiedenis)], id);
+                const {filosofie, geschiedenis, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(geschiedenis)], email);
             }
             break;
         case "filosofie-duits":
             for (let d of data) {
-                const {filosofie, duits, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(duits)], id);
+                const {filosofie, duits, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(duits)], email);
             }
             break;
         case "filosofie-frans":
             for (let d of data) {
-                const {filosofie, frans, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(frans)], id);
+                const {filosofie, frans, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(frans)], email);
             }
             break;
         case "filosofie-spaans":
             for (let d of data) {
-                const {filosofie, spaans, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(spaans)], id);
+                const {filosofie, spaans, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(spaans)], email);
             }
             break;
         case "filosofie-aardrijkskunde":
             for (let d of data) {
-                const {filosofie, aardrijkskunde, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(aardrijkskunde)], id);
+                const {filosofie, aardrijkskunde, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(aardrijkskunde)], email);
             }
             break;
         case "filosofie-maatschappijleer":
             for (let d of data) {
-                const {filosofie, maatschappijleer, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(maatschappijleer)], id);
+                const {filosofie, maatschappijleer, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(maatschappijleer)], email);
             }
             break;
         case "filosofie-economie":
             for (let d of data) {
-                const {filosofie, economie, id} = d;
-                machine.learn([parseInt(filosofie), parseInt(economie)], id);
+                const {filosofie, economie, email} = d;
+                machine.learn([parseInt(filosofie), parseInt(economie)], email);
             }
             break;
 
 
         case "wiskunde_a-nederlands":
             for (let d of data) {
-                const {wiskunde_a, nederlands, id} = d;
-                machine.learn([parseInt(wiskunde_a), parseInt(nederlands)], id);
+                const {wiskunde_a, nederlands, email} = d;
+                machine.learn([parseInt(wiskunde_a), parseInt(nederlands)], email);
             }
             break;
         case "wiskunde_a-engels":
             for (let d of data) {
-                const {wiskunde_a, engels, id} = d;
-                machine.learn([parseInt(wiskunde_a), parseInt(engels)], id);
+                const {wiskunde_a, engels, email} = d;
+                machine.learn([parseInt(wiskunde_a), parseInt(engels)], email);
             }
             break;
         case "wiskunde_a-scheikunde":
             for (let d of data) {
-                const {wiskunde_a, scheikunde, id} = d;
-                machine.learn([parseInt(wiskunde_a), parseInt(scheikunde)], id);
+                const {wiskunde_a, scheikunde, email} = d;
+                machine.learn([parseInt(wiskunde_a), parseInt(scheikunde)], email);
             }
             break;
         case "wiskunde_a-natuurkunde":
             for (let d of data) {
-                const {wiskunde_a, natuurkunde, id} = d;
-                machine.learn([parseInt(wiskunde_a), parseInt(natuurkunde)], id);
+                const {wiskunde_a, natuurkunde, email} = d;
+                machine.learn([parseInt(wiskunde_a), parseInt(natuurkunde)], email);
             }
             break;
         case "wiskunde_a-biologie":
             for (let d of data) {
-                const {wiskunde_a, biologie, id} = d;
-                machine.learn([parseInt(wiskunde_a), parseInt(biologie)], id);
+                const {wiskunde_a, biologie, email} = d;
+                machine.learn([parseInt(wiskunde_a), parseInt(biologie)], email);
             }
             break;
         case "wiskunde_a-filosofie":
             for (let d of data) {
-                const {wiskunde_a, filosofie, id} = d;
-                machine.learn([parseInt(wiskunde_a), parseInt(filosofie)], id);
+                const {wiskunde_a, filosofie, email} = d;
+                machine.learn([parseInt(wiskunde_a), parseInt(filosofie)], email);
             }
             break;
         // case "wiskunde_a-wiskunde_b":
         //     for (let d of data) {
-        //         const {wiskunde_a, wiskunde_b, id} = d;
-        //         machine.learn([parseInt(wiskunde_a), parseInt(wiskunde_b)], id);
+        //         const {wiskunde_a, wiskunde_b, email} = d;
+        //         machine.learn([parseInt(wiskunde_a), parseInt(wiskunde_b)], email);
         //     }
         //     break;
         case "wiskunde_a-geschiedenis":
             for (let d of data) {
-                const {wiskunde_a, geschiedenis, id} = d;
-                machine.learn([parseInt(wiskunde_a), parseInt(geschiedenis)], id);
+                const {wiskunde_a, geschiedenis, email} = d;
+                machine.learn([parseInt(wiskunde_a), parseInt(geschiedenis)], email);
             }
             break;
         case "wiskunde_a-duits":
             for (let d of data) {
-                const {wiskunde_a, duits, id} = d;
-                machine.learn([parseInt(wiskunde_a), parseInt(duits)], id);
+                const {wiskunde_a, duits, email} = d;
+                machine.learn([parseInt(wiskunde_a), parseInt(duits)], email);
             }
             break;
         case "wiskunde_a-frans":
             for (let d of data) {
-                const {wiskunde_a, frans, id} = d;
-                machine.learn([parseInt(wiskunde_a), parseInt(frans)], id);
+                const {wiskunde_a, frans, email} = d;
+                machine.learn([parseInt(wiskunde_a), parseInt(frans)], email);
             }
             break;
         case "wiskunde_a-spaans":
             for (let d of data) {
-                const {wiskunde_a, spaans, id} = d;
-                machine.learn([parseInt(wiskunde_a), parseInt(spaans)], id);
+                const {wiskunde_a, spaans, email} = d;
+                machine.learn([parseInt(wiskunde_a), parseInt(spaans)], email);
             }
             break;
         case "wiskunde_a-aardrijkskunde":
             for (let d of data) {
-                const {wiskunde_a, aardrijkskunde, id} = d;
-                machine.learn([parseInt(wiskunde_a), parseInt(aardrijkskunde)], id);
+                const {wiskunde_a, aardrijkskunde, email} = d;
+                machine.learn([parseInt(wiskunde_a), parseInt(aardrijkskunde)], email);
             }
             break;
         case "wiskunde_a-maatschappijleer":
             for (let d of data) {
-                const {wiskunde_a, maatschappijleer, id} = d;
-                machine.learn([parseInt(wiskunde_a), parseInt(maatschappijleer)], id);
+                const {wiskunde_a, maatschappijleer, email} = d;
+                machine.learn([parseInt(wiskunde_a), parseInt(maatschappijleer)], email);
             }
             break;
         case "wiskunde_a-economie":
             for (let d of data) {
-                const {wiskunde_a, economie, id} = d;
-                machine.learn([parseInt(wiskunde_a), parseInt(economie)], id);
+                const {wiskunde_a, economie, email} = d;
+                machine.learn([parseInt(wiskunde_a), parseInt(economie)], email);
             }
             break;
 
@@ -630,252 +630,252 @@ function createMachine(data) {
 //wiskunde_b cases
         case "wiskunde_b-nederlands":
             for (let d of data) {
-                const {wiskunde_b, nederlands, id} = d;
-                machine.learn([parseInt(wiskunde_b), parseInt(nederlands)], id);
+                const {wiskunde_b, nederlands, email} = d;
+                machine.learn([parseInt(wiskunde_b), parseInt(nederlands)], email);
             }
             break;
         case "wiskunde_b-engels":
             for (let d of data) {
-                const {wiskunde_b, engels, id} = d;
-                machine.learn([parseInt(wiskunde_b), parseInt(engels)], id);
+                const {wiskunde_b, engels, email} = d;
+                machine.learn([parseInt(wiskunde_b), parseInt(engels)], email);
             }
             break;
         case "wiskunde_b-scheikunde":
             for (let d of data) {
-                const {wiskunde_b, scheikunde, id} = d;
-                machine.learn([parseInt(wiskunde_b), parseInt(scheikunde)], id);
+                const {wiskunde_b, scheikunde, email} = d;
+                machine.learn([parseInt(wiskunde_b), parseInt(scheikunde)], email);
             }
             break;
         case "wiskunde_b-natuurkunde":
             for (let d of data) {
-                const {wiskunde_b, natuurkunde, id} = d;
-                machine.learn([parseInt(wiskunde_b), parseInt(natuurkunde)], id);
+                const {wiskunde_b, natuurkunde, email} = d;
+                machine.learn([parseInt(wiskunde_b), parseInt(natuurkunde)], email);
             }
             break;
         case "wiskunde_b-biologie":
             for (let d of data) {
-                const {wiskunde_b, biologie, id} = d;
-                machine.learn([parseInt(wiskunde_b), parseInt(biologie)], id);
+                const {wiskunde_b, biologie, email} = d;
+                machine.learn([parseInt(wiskunde_b), parseInt(biologie)], email);
             }
             break;
         case "wiskunde_b-duits":
             for (let d of data) {
-                const {wiskunde_b, duits, id} = d;
-                machine.learn([parseInt(wiskunde_b), parseInt(duits)], id);
+                const {wiskunde_b, duits, email} = d;
+                machine.learn([parseInt(wiskunde_b), parseInt(duits)], email);
             }
             break;
         case "wiskunde_b-spaans":
             for (let d of data) {
-                const {wiskunde_b, spaans, id} = d;
-                machine.learn([parseInt(wiskunde_b), parseInt(spaans)], id);
+                const {wiskunde_b, spaans, email} = d;
+                machine.learn([parseInt(wiskunde_b), parseInt(spaans)], email);
             }
             break;
         case "wiskunde_b-filosofie":
             for (let d of data) {
-                const {wiskunde_b, filosofie, id} = d;
-                machine.learn([parseInt(wiskunde_b), parseInt(filosofie)], id);
+                const {wiskunde_b, filosofie, email} = d;
+                machine.learn([parseInt(wiskunde_b), parseInt(filosofie)], email);
             }
             break;
         case "wiskunde_b-frans":
             for (let d of data) {
-                const {wiskunde_b, frans, id} = d;
-                machine.learn([parseInt(wiskunde_b), parseInt(frans)], id);
+                const {wiskunde_b, frans, email} = d;
+                machine.learn([parseInt(wiskunde_b), parseInt(frans)], email);
             }
             break;
         case "wiskunde_b-geschiedenis":
             for (let d of data) {
-                const {wiskunde_b, geschiedenis, id} = d;
-                machine.learn([parseInt(wiskunde_b), parseInt(geschiedenis)], id);
+                const {wiskunde_b, geschiedenis, email} = d;
+                machine.learn([parseInt(wiskunde_b), parseInt(geschiedenis)], email);
             }
             break;
         case "wiskunde_b-aardrijkskunde":
             for (let d of data) {
-                const {wiskunde_b, aardrijkskunde, id} = d;
-                machine.learn([parseInt(wiskunde_b), parseInt(aardrijkskunde)], id);
+                const {wiskunde_b, aardrijkskunde, email} = d;
+                machine.learn([parseInt(wiskunde_b), parseInt(aardrijkskunde)], email);
             }
             break;
         case "wiskunde_b-maatschappijleer":
             for (let d of data) {
-                const {wiskunde_b, maatschappijleer, id} = d;
-                machine.learn([parseInt(wiskunde_b), parseInt(maatschappijleer)], id);
+                const {wiskunde_b, maatschappijleer, email} = d;
+                machine.learn([parseInt(wiskunde_b), parseInt(maatschappijleer)], email);
             }
             break;
         case "wiskunde_b-economie":
             for (let d of data) {
-                const {wiskunde_b, economie, id} = d;
-                machine.learn([parseInt(wiskunde_b), parseInt(economie)], id);
+                const {wiskunde_b, economie, email} = d;
+                machine.learn([parseInt(wiskunde_b), parseInt(economie)], email);
             }
             break;
 
         //geschiedenis cases
         case "geschiedenis-nederlands":
             for (let d of data) {
-                const {geschiedenis, nederlands, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(nederlands)], id);
+                const {geschiedenis, nederlands, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(nederlands)], email);
             }
             break;
         case "geschiedenis-engels":
             for (let d of data) {
-                const {geschiedenis, engels, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(engels)], id);
+                const {geschiedenis, engels, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(engels)], email);
             }
             break;
         case "geschiedenis-scheikunde":
             for (let d of data) {
-                const {geschiedenis, scheikunde, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(scheikunde)], id);
+                const {geschiedenis, scheikunde, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(scheikunde)], email);
             }
             break;
         case "geschiedenis-natuurkunde":
             for (let d of data) {
-                const {geschiedenis, natuurkunde, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(natuurkunde)], id);
+                const {geschiedenis, natuurkunde, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(natuurkunde)], email);
             }
             break;
         case "geschiedenis-biologie":
             for (let d of data) {
-                const {geschiedenis, biologie, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(biologie)], id);
+                const {geschiedenis, biologie, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(biologie)], email);
             }
             break;
         case "geschiedenis-wiskunde_a":
             for (let d of data) {
-                const {geschiedenis, wiskunde_a, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(wiskunde_a)], id);
+                const {geschiedenis, wiskunde_a, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(wiskunde_a)], email);
             }
             break;
         case "geschiedenis-duits":
             for (let d of data) {
-                const {geschiedenis, duits, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(duits)], id);
+                const {geschiedenis, duits, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(duits)], email);
             }
             break;
         case "geschiedenis-spaans":
             for (let d of data) {
-                const {geschiedenis, spaans, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(spaans)], id);
+                const {geschiedenis, spaans, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(spaans)], email);
             }
             break;
         case "geschiedenis-filosofie":
             for (let d of data) {
-                const {geschiedenis, filosofie, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(filosofie)], id);
+                const {geschiedenis, filosofie, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(filosofie)], email);
             }
             break;
         case "geschiedenis-frans":
             for (let d of data) {
-                const {geschiedenis, frans, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(frans)], id);
+                const {geschiedenis, frans, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(frans)], email);
             }
             break;
         case "geschiedenis-wiskunde_b":
             for (let d of data) {
-                const {geschiedenis, wiskunde_b, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(wiskunde_b)], id);
+                const {geschiedenis, wiskunde_b, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(wiskunde_b)], email);
             }
             break;
         case "geschiedenis-aardrijkskunde":
             for (let d of data) {
-                const {geschiedenis, aardrijkskunde, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(aardrijkskunde)], id);
+                const {geschiedenis, aardrijkskunde, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(aardrijkskunde)], email);
             }
             break;
         case "geschiedenis-maatschappijleer":
             for (let d of data) {
-                const {geschiedenis, maatschappijleer, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(maatschappijleer)], id);
+                const {geschiedenis, maatschappijleer, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(maatschappijleer)], email);
             }
             break;
         case "geschiedenis-economie":
             for (let d of data) {
-                const {geschiedenis, economie, id} = d;
-                machine.learn([parseInt(geschiedenis), parseInt(economie)], id);
+                const {geschiedenis, economie, email} = d;
+                machine.learn([parseInt(geschiedenis), parseInt(economie)], email);
             }
             break;
 
         // duits cases
         case "duits-nederlands":
             for (let d of data) {
-                const {duits, nederlands, id} = d;
-                machine.learn([parseInt(duits), parseInt(nederlands)], id);
+                const {duits, nederlands, email} = d;
+                machine.learn([parseInt(duits), parseInt(nederlands)], email);
             }
             break;
         case "duits-engels":
             for (let d of data) {
-                const {duits, engels, id} = d;
-                machine.learn([parseInt(duits), parseInt(engels)], id);
+                const {duits, engels, email} = d;
+                machine.learn([parseInt(duits), parseInt(engels)], email);
             }
             break;
         case "duits-scheikunde":
             for (let d of data) {
-                const {duits, scheikunde, id} = d;
-                machine.learn([parseInt(duits), parseInt(scheikunde)], id);
+                const {duits, scheikunde, email} = d;
+                machine.learn([parseInt(duits), parseInt(scheikunde)], email);
             }
             break;
         case "duits-natuurkunde":
             for (let d of data) {
-                const {duits, natuurkunde, id} = d;
-                machine.learn([parseInt(duits), parseInt(natuurkunde)], id);
+                const {duits, natuurkunde, email} = d;
+                machine.learn([parseInt(duits), parseInt(natuurkunde)], email);
             }
             break;
         case "duits-biologie":
             for (let d of data) {
-                const {duits, biologie, id} = d;
-                machine.learn([parseInt(duits), parseInt(biologie)], id);
+                const {duits, biologie, email} = d;
+                machine.learn([parseInt(duits), parseInt(biologie)], email);
             }
             break;
         case "duits-wiskunde_a":
             for (let d of data) {
-                const {duits, wiskunde_a, id} = d;
-                machine.learn([parseInt(duits), parseInt(wiskunde_a)], id);
+                const {duits, wiskunde_a, email} = d;
+                machine.learn([parseInt(duits), parseInt(wiskunde_a)], email);
             }
             break;
         case "duits-wiskunde_b":
             for (let d of data) {
-                const {duits, wiskunde_b, id} = d;
-                machine.learn([parseInt(duits), parseInt(wiskunde_b)], id);
+                const {duits, wiskunde_b, email} = d;
+                machine.learn([parseInt(duits), parseInt(wiskunde_b)], email);
             }
             break;
         case "duits-geschiedenis":
             for (let d of data) {
-                const {duits, geschiedenis, id} = d;
-                machine.learn([parseInt(duits), parseInt(geschiedenis)], id);
+                const {duits, geschiedenis, email} = d;
+                machine.learn([parseInt(duits), parseInt(geschiedenis)], email);
             }
             break;
         case "duits-filosofie":
             for (let d of data) {
-                const {duits, filosofie, id} = d;
-                machine.learn([parseInt(duits), parseInt(filosofie)], id);
+                const {duits, filosofie, email} = d;
+                machine.learn([parseInt(duits), parseInt(filosofie)], email);
             }
             break;
         case "duits-frans":
             for (let d of data) {
-                const {duits, frans, id} = d;
-                machine.learn([parseInt(duits), parseInt(frans)], id);
+                const {duits, frans, email} = d;
+                machine.learn([parseInt(duits), parseInt(frans)], email);
             }
             break;
         case "duits-spaans":
             for (let d of data) {
-                const {duits, spaans, id} = d;
-                machine.learn([parseInt(duits), parseInt(spaans)], id);
+                const {duits, spaans, email} = d;
+                machine.learn([parseInt(duits), parseInt(spaans)], email);
             }
             break;
         case "duits-aardrijkskunde":
             for (let d of data) {
-                const {duits, aardrijkskunde, id} = d;
-                machine.learn([parseInt(duits), parseInt(aardrijkskunde)], id);
+                const {duits, aardrijkskunde, email} = d;
+                machine.learn([parseInt(duits), parseInt(aardrijkskunde)], email);
             }
             break;
         case "duits-maatschappijleer":
             for (let d of data) {
-                const {duits, maatschappijleer, id} = d;
-                machine.learn([parseInt(duits), parseInt(maatschappijleer)], id);
+                const {duits, maatschappijleer, email} = d;
+                machine.learn([parseInt(duits), parseInt(maatschappijleer)], email);
             }
             break;
         case "duits-economie":
             for (let d of data) {
-                const {duits, economie, id} = d;
-                machine.learn([parseInt(duits), parseInt(economie)], id);
+                const {duits, economie, email} = d;
+                machine.learn([parseInt(duits), parseInt(economie)], email);
             }
             break;
 
@@ -883,166 +883,166 @@ function createMachine(data) {
         // frans cases
         case "frans-nederlands":
             for (let d of data) {
-                const {frans, nederlands, id} = d;
-                machine.learn([parseInt(frans), parseInt(nederlands)], id);
+                const {frans, nederlands, email} = d;
+                machine.learn([parseInt(frans), parseInt(nederlands)], email);
             }
             break;
         case "frans-engels":
             for (let d of data) {
-                const {frans, engels, id} = d;
-                machine.learn([parseInt(frans), parseInt(engels)], id);
+                const {frans, engels, email} = d;
+                machine.learn([parseInt(frans), parseInt(engels)], email);
             }
             break;
         case "frans-scheikunde":
             for (let d of data) {
-                const {frans, scheikunde, id} = d;
-                machine.learn([parseInt(frans), parseInt(scheikunde)], id);
+                const {frans, scheikunde, email} = d;
+                machine.learn([parseInt(frans), parseInt(scheikunde)], email);
             }
             break;
         case "frans-natuurkunde":
             for (let d of data) {
-                const {frans, natuurkunde, id} = d;
-                machine.learn([parseInt(frans), parseInt(natuurkunde)], id);
+                const {frans, natuurkunde, email} = d;
+                machine.learn([parseInt(frans), parseInt(natuurkunde)], email);
             }
             break;
         case "frans-biologie":
             for (let d of data) {
-                const {frans, biologie, id} = d;
-                machine.learn([parseInt(frans), parseInt(biologie)], id);
+                const {frans, biologie, email} = d;
+                machine.learn([parseInt(frans), parseInt(biologie)], email);
             }
             break;
         case "frans-wiskunde_a":
             for (let d of data) {
-                const {frans, wiskunde_a, id} = d;
-                machine.learn([parseInt(frans), parseInt(wiskunde_a)], id);
+                const {frans, wiskunde_a, email} = d;
+                machine.learn([parseInt(frans), parseInt(wiskunde_a)], email);
             }
             break;
         case "frans-wiskunde_b":
             for (let d of data) {
-                const {frans, wiskunde_b, id} = d;
-                machine.learn([parseInt(frans), parseInt(wiskunde_b)], id);
+                const {frans, wiskunde_b, email} = d;
+                machine.learn([parseInt(frans), parseInt(wiskunde_b)], email);
             }
             break;
         case "frans-geschiedenis":
             for (let d of data) {
-                const {frans, geschiedenis, id} = d;
-                machine.learn([parseInt(frans), parseInt(geschiedenis)], id);
+                const {frans, geschiedenis, email} = d;
+                machine.learn([parseInt(frans), parseInt(geschiedenis)], email);
             }
             break;
         case "frans-duits":
             for (let d of data) {
-                const {frans, duits, id} = d;
-                machine.learn([parseInt(frans), parseInt(duits)], id);
+                const {frans, duits, email} = d;
+                machine.learn([parseInt(frans), parseInt(duits)], email);
             }
             break;
         case "frans-spaans":
             for (let d of data) {
-                const {frans, spaans, id} = d;
-                machine.learn([parseInt(frans), parseInt(spaans)], id);
+                const {frans, spaans, email} = d;
+                machine.learn([parseInt(frans), parseInt(spaans)], email);
             }
             break;
         case "frans-aardrijkskunde":
             for (let d of data) {
-                const {frans, aardrijkskunde, id} = d;
-                machine.learn([parseInt(frans), parseInt(aardrijkskunde)], id);
+                const {frans, aardrijkskunde, email} = d;
+                machine.learn([parseInt(frans), parseInt(aardrijkskunde)], email);
             }
             break;
         case "frans-maatschappijleer":
             for (let d of data) {
-                const {frans, maatschappijleer, id} = d;
-                machine.learn([parseInt(frans), parseInt(maatschappijleer)], id);
+                const {frans, maatschappijleer, email} = d;
+                machine.learn([parseInt(frans), parseInt(maatschappijleer)], email);
             }
             break;
         case "frans-economie":
             for (let d of data) {
-                const {frans, economie, id} = d;
-                machine.learn([parseInt(frans), parseInt(economie)], id);
+                const {frans, economie, email} = d;
+                machine.learn([parseInt(frans), parseInt(economie)], email);
             }
             break;
 
         //spaans cases
         case "spaans-nederlands":
             for (let d of data) {
-                const {spaans, nederlands, id} = d;
-                machine.learn([parseInt(spaans), parseInt(nederlands)], id);
+                const {spaans, nederlands, email} = d;
+                machine.learn([parseInt(spaans), parseInt(nederlands)], email);
             }
             break;
         case "spaans-engels":
             for (let d of data) {
-                const {spaans, engels, id} = d;
-                machine.learn([parseInt(spaans), parseInt(engels)], id);
+                const {spaans, engels, email} = d;
+                machine.learn([parseInt(spaans), parseInt(engels)], email);
             }
             break;
         case "spaans-scheikunde":
             for (let d of data) {
-                const {spaans, scheikunde, id} = d;
-                machine.learn([parseInt(spaans), parseInt(scheikunde)], id);
+                const {spaans, scheikunde, email} = d;
+                machine.learn([parseInt(spaans), parseInt(scheikunde)], email);
             }
             break;
         case "spaans-natuurkunde":
             for (let d of data) {
-                const {spaans, natuurkunde, id} = d;
-                machine.learn([parseInt(spaans), parseInt(natuurkunde)], id);
+                const {spaans, natuurkunde, email} = d;
+                machine.learn([parseInt(spaans), parseInt(natuurkunde)], email);
             }
             break;
         case "spaans-biologie":
             for (let d of data) {
-                const {spaans, biologie, id} = d;
-                machine.learn([parseInt(spaans), parseInt(biologie)], id);
+                const {spaans, biologie, email} = d;
+                machine.learn([parseInt(spaans), parseInt(biologie)], email);
             }
             break;
         case "spaans-wiskunde_a":
             for (let d of data) {
-                const {spaans, wiskunde_a, id} = d;
-                machine.learn([parseInt(spaans), parseInt(wiskunde_a)], id);
+                const {spaans, wiskunde_a, email} = d;
+                machine.learn([parseInt(spaans), parseInt(wiskunde_a)], email);
             }
             break;
         case "spaans-duits":
             for (let d of data) {
-                const {spaans, duits, id} = d;
-                machine.learn([parseInt(spaans), parseInt(duits)], id);
+                const {spaans, duits, email} = d;
+                machine.learn([parseInt(spaans), parseInt(duits)], email);
             }
             break;
         case "spaans-geschiedenis":
             for (let d of data) {
-                const {spaans, geschiedenis, id} = d;
-                machine.learn([parseInt(spaans), parseInt(geschiedenis)], id);
+                const {spaans, geschiedenis, email} = d;
+                machine.learn([parseInt(spaans), parseInt(geschiedenis)], email);
             }
             break;
         case "spaans-filosofie":
             for (let d of data) {
-                const {spaans, filosofie, id} = d;
-                machine.learn([parseInt(spaans), parseInt(filosofie)], id);
+                const {spaans, filosofie, email} = d;
+                machine.learn([parseInt(spaans), parseInt(filosofie)], email);
             }
             break;
         case "spaans-frans":
             for (let d of data) {
-                const {spaans, frans, id} = d;
-                machine.learn([parseInt(spaans), parseInt(frans)], id);
+                const {spaans, frans, email} = d;
+                machine.learn([parseInt(spaans), parseInt(frans)], email);
             }
             break;
         case "spaans-wiskunde_b":
             for (let d of data) {
-                const {spaans, wiskunde_b, id} = d;
-                machine.learn([parseInt(spaans), parseInt(wiskunde_b)], id);
+                const {spaans, wiskunde_b, email} = d;
+                machine.learn([parseInt(spaans), parseInt(wiskunde_b)], email);
             }
             break;
         case "spaans-aardrijkskunde":
             for (let d of data) {
-                const {spaans, aardrijkskunde, id} = d;
-                machine.learn([parseInt(spaans), parseInt(aardrijkskunde)], id);
+                const {spaans, aardrijkskunde, email} = d;
+                machine.learn([parseInt(spaans), parseInt(aardrijkskunde)], email);
             }
             break;
         case "spaans-maatschappijleer":
             for (let d of data) {
-                const {spaans, maatschappijleer, id} = d;
-                machine.learn([parseInt(spaans), parseInt(maatschappijleer)], id);
+                const {spaans, maatschappijleer, email} = d;
+                machine.learn([parseInt(spaans), parseInt(maatschappijleer)], email);
             }
             break;
         case "spaans-economie":
             for (let d of data) {
-                const {spaans, economie, id} = d;
-                machine.learn([parseInt(spaans), parseInt(economie)], id);
+                const {spaans, economie, email} = d;
+                machine.learn([parseInt(spaans), parseInt(economie)], email);
             }
             break;
 
@@ -1050,86 +1050,86 @@ function createMachine(data) {
 //aardrijkskunde cases
         case "aardrijkskunde-nederlands":
             for (let d of data) {
-                const {aardrijkskunde, nederlands, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(nederlands)], id);
+                const {aardrijkskunde, nederlands, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(nederlands)], email);
             }
             break;
         case "aardrijkskunde-engels":
             for (let d of data) {
-                const {aardrijkskunde, engels, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(engels)], id);
+                const {aardrijkskunde, engels, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(engels)], email);
             }
             break;
         case "aardrijkskunde-scheikunde":
             for (let d of data) {
-                const {aardrijkskunde, scheikunde, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(scheikunde)], id);
+                const {aardrijkskunde, scheikunde, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(scheikunde)], email);
             }
             break;
         case "aardrijkskunde-natuurkunde":
             for (let d of data) {
-                const {aardrijkskunde, natuurkunde, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(natuurkunde)], id);
+                const {aardrijkskunde, natuurkunde, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(natuurkunde)], email);
             }
             break;
         case "aardrijkskunde-biologie":
             for (let d of data) {
-                const {aardrijkskunde, biologie, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(biologie)], id);
+                const {aardrijkskunde, biologie, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(biologie)], email);
             }
             break;
         case "aardrijkskunde-wiskunde_a":
             for (let d of data) {
-                const {aardrijkskunde, wiskunde_a, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(wiskunde_a)], id);
+                const {aardrijkskunde, wiskunde_a, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(wiskunde_a)], email);
             }
             break;
         case "aardrijkskunde-duits":
             for (let d of data) {
-                const {aardrijkskunde, duits, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(duits)], id);
+                const {aardrijkskunde, duits, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(duits)], email);
             }
             break;
         case "aardrijkskunde-spaans":
             for (let d of data) {
-                const {aardrijkskunde, spaans, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(spaans)], id);
+                const {aardrijkskunde, spaans, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(spaans)], email);
             }
             break;
         case "aardrijkskunde-filosofie":
             for (let d of data) {
-                const {aardrijkskunde, filosofie, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(filosofie)], id);
+                const {aardrijkskunde, filosofie, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(filosofie)], email);
             }
             break;
         case "aardrijkskunde-frans":
             for (let d of data) {
-                const {aardrijkskunde, frans, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(frans)], id);
+                const {aardrijkskunde, frans, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(frans)], email);
             }
             break;
         case "aardrijkskunde-geschiedenis":
             for (let d of data) {
-                const {aardrijkskunde, geschiedenis, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(geschiedenis)], id);
+                const {aardrijkskunde, geschiedenis, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(geschiedenis)], email);
             }
             break;
         case "aardrijkskunde-wiskunde_b":
             for (let d of data) {
-                const {aardrijkskunde, wiskunde_b, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(wiskunde_b)], id);
+                const {aardrijkskunde, wiskunde_b, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(wiskunde_b)], email);
             }
             break;
         case "aardrijkskunde-maatschappijleer":
             for (let d of data) {
-                const {aardrijkskunde, maatschappijleer, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(maatschappijleer)], id);
+                const {aardrijkskunde, maatschappijleer, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(maatschappijleer)], email);
             }
             break;
         case "aardrijkskunde-economie":
             for (let d of data) {
-                const {aardrijkskunde, economie, id} = d;
-                machine.learn([parseInt(aardrijkskunde), parseInt(economie)], id);
+                const {aardrijkskunde, economie, email} = d;
+                machine.learn([parseInt(aardrijkskunde), parseInt(economie)], email);
             }
             break;
 
@@ -1137,181 +1137,183 @@ function createMachine(data) {
 // maatschappijleer cases //check
         case "maatschappijleer-nederlands":
             for (let d of data) {
-                const {maatschappijleer, nederlands, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(nederlands)], id);
+                const {maatschappijleer, nederlands, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(nederlands)], email);
             }
             break;
         case "maatschappijleer-engels":
             for (let d of data) {
-                const {maatschappijleer, engels, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(engels)], id);
+                const {maatschappijleer, engels, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(engels)], email);
             }
             break;
         case "maatschappijleer-scheikunde":
             for (let d of data) {
-                const {maatschappijleer, scheikunde, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(scheikunde)], id);
+                const {maatschappijleer, scheikunde, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(scheikunde)], email);
             }
             break;
         case "maatschappijleer-natuurkunde":
             for (let d of data) {
-                const {maatschappijleer, natuurkunde, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(natuurkunde)], id);
+                const {maatschappijleer, natuurkunde, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(natuurkunde)], email);
             }
             break;
         case "maatschappijleer-biologie":
             for (let d of data) {
-                const {maatschappijleer, biologie, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(biologie)], id);
+                const {maatschappijleer, biologie, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(biologie)], email);
             }
             break;
         case "maatschappijleer-wiskunde_a":
             for (let d of data) {
-                const {maatschappijleer, wiskunde_a, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(wiskunde_a)], id);
+                const {maatschappijleer, wiskunde_a, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(wiskunde_a)], email);
             }
             break;
         case "maatschappijleer-wiskunde_b":
             for (let d of data) {
-                const {maatschappijleer, wiskunde_b, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(wiskunde_b)], id);
+                const {maatschappijleer, wiskunde_b, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(wiskunde_b)], email);
             }
             break;
         case "maatschappijleer-geschiedenis":
             for (let d of data) {
-                const {maatschappijleer, geschiedenis, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(geschiedenis)], id);
+                const {maatschappijleer, geschiedenis, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(geschiedenis)], email);
             }
             break;
         case "maatschappijleer-duits":
             for (let d of data) {
-                const {maatschappijleer, duits, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(duits)], id);
+                const {maatschappijleer, duits, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(duits)], email);
             }
             break;
         case "maatschappijleer-frans":
             for (let d of data) {
-                const {maatschappijleer, frans, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(frans)], id);
+                const {maatschappijleer, frans, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(frans)], email);
             }
             break;
         case "maatschappijleer-spaans":
             for (let d of data) {
-                const {maatschappijleer, spaans, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(spaans)], id);
+                const {maatschappijleer, spaans, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(spaans)], email);
             }
             break;
         case "maatschappijleer-aardrijkskunde":
             for (let d of data) {
-                const {maatschappijleer, aardrijkskunde, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(aardrijkskunde)], id);
+                const {maatschappijleer, aardrijkskunde, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(aardrijkskunde)], email);
             }
             break;
         case "maatschappijleer-filosofie":
             for (let d of data) {
-                const {maatschappijleer, filosofie, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(filosofie)], id);
+                const {maatschappijleer, filosofie, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(filosofie)], email);
             }
             break;
         case "maatschappijleer-economie":
             for (let d of data) {
-                const {maatschappijleer, economie, id} = d;
-                machine.learn([parseInt(maatschappijleer), parseInt(economie)], id);
+                const {maatschappijleer, economie, email} = d;
+                machine.learn([parseInt(maatschappijleer), parseInt(economie)], email);
             }
             break;
 
         //cases economie //check
         case "economie-nederlands":
             for (let d of data) {
-                const {economie, nederlands, id} = d;
-                machine.learn([parseInt(economie), parseInt(nederlands)], id);
+                const {economie, nederlands, email} = d;
+                machine.learn([parseInt(economie), parseInt(nederlands)], email);
             }
             break;
         case "economie-engels":
             for (let d of data) {
-                const {economie, engels, id} = d;
-                machine.learn([parseInt(economie), parseInt(engels)], id);
+                const {economie, engels, email} = d;
+                machine.learn([parseInt(economie), parseInt(engels)], email);
             }
             break;
         case "economie-scheikunde":
             for (let d of data) {
-                const {economie, scheikunde, id} = d;
-                machine.learn([parseInt(economie), parseInt(scheikunde)], id);
+                const {economie, scheikunde, email} = d;
+                machine.learn([parseInt(economie), parseInt(scheikunde)], email);
             }
             break;
         case "economie-natuurkunde":
             for (let d of data) {
-                const {economie, natuurkunde, id} = d;
-                machine.learn([parseInt(economie), parseInt(natuurkunde)], id);
+                const {economie, natuurkunde, email} = d;
+                machine.learn([parseInt(economie), parseInt(natuurkunde)], email);
             }
             break;
         case "economie-biologie":
             for (let d of data) {
-                const {economie, biologie, id} = d;
-                machine.learn([parseInt(economie), parseInt(biologie)], id);
+                const {economie, biologie, email} = d;
+                machine.learn([parseInt(economie), parseInt(biologie)], email);
             }
             break;
         case "economie-wiskunde_a":
             for (let d of data) {
-                const {economie, wiskunde_a, id} = d;
-                machine.learn([parseInt(economie), parseInt(wiskunde_a)], id);
+                const {economie, wiskunde_a, email} = d;
+                machine.learn([parseInt(economie), parseInt(wiskunde_a)], email);
             }
             break;
         case "economie-wiskunde_b":
             for (let d of data) {
-                const {economie, wiskunde_b, id} = d;
-                machine.learn([parseInt(economie), parseInt(wiskunde_b)], id);
+                const {economie, wiskunde_b, email} = d;
+                machine.learn([parseInt(economie), parseInt(wiskunde_b)], email);
             }
             break;
         case "economie-geschiedenis":
             for (let d of data) {
-                const {economie, geschiedenis, id} = d;
-                machine.learn([parseInt(economie), parseInt(geschiedenis)], id);
+                const {economie, geschiedenis, email} = d;
+                machine.learn([parseInt(economie), parseInt(geschiedenis)], email);
             }
             break;
         case "economie-duits":
             for (let d of data) {
-                const {economie, duits, id} = d;
-                machine.learn([parseInt(economie), parseInt(duits)], id);
+                const {economie, duits, email} = d;
+                machine.learn([parseInt(economie), parseInt(duits)], email);
             }
             break;
         case "economie-frans":
             for (let d of data) {
-                const {economie, frans, id} = d;
-                machine.learn([parseInt(economie), parseInt(frans)], id);
+                const {economie, frans, email} = d;
+                machine.learn([parseInt(economie), parseInt(frans)], email);
             }
             break;
         case "economie-spaans":
             for (let d of data) {
-                const {economie, spaans, id} = d;
-                machine.learn([parseInt(economie), parseInt(spaans)], id);
+                const {economie, spaans, email} = d;
+                machine.learn([parseInt(economie), parseInt(spaans)], email);
             }
             break;
         case "economie-aardrijkskunde":
             for (let d of data) {
-                const {economie, aardrijkskunde, id} = d;
-                machine.learn([parseInt(economie), parseInt(aardrijkskunde)], id);
+                const {economie, aardrijkskunde, email} = d;
+                machine.learn([parseInt(economie), parseInt(aardrijkskunde)], email);
             }
             break;
         case "economie-maatschappijleer":
             for (let d of data) {
-                const {economie, maatschappijleer, id} = d;
-                machine.learn([parseInt(economie), parseInt(maatschappijleer)], id);
+                const {economie, maatschappijleer, email} = d;
+                machine.learn([parseInt(economie), parseInt(maatschappijleer)], email);
             }
             break;
         case "economie-filosofie":
             for (let d of data) {
-                const {economie, filosofie, id} = d;
-                machine.learn([parseInt(economie), parseInt(filosofie)], id);
+                const {economie, filosofie, email} = d;
+                machine.learn([parseInt(economie), parseInt(filosofie)], email);
             }
             break;
     }
     const prediction = machine.classify([giveGrade, takeGrade])
-    console.log(prediction.name, prediction.email)
+    console.log(prediction)
+    const { name, email } = prediction;
     feedback.innerHTML = `Je hebt een buddy gevonden!`
-    feedback2.innerHTML = `Jouw studybuddy is:`
-    feedback3.innerHTML = `${prediction}`
+    feedback2.innerHTML = `Neem contact op met jouw buddy: ${prediction}!`
     buddy.style.visibility = "visible";
+
+
 }
 
 // waarden invullen voor een voorspelling

@@ -10,7 +10,6 @@ Header {
 .Subheader {
     margin: 0 auto;
     text-align: center;
-    max-width: 24cm;
     background-color: #DFE4DC;
     padding: 12px;
     font-family: 'Roboto', sans-serif;
@@ -81,7 +80,6 @@ button {
 }
 
 .buttonmatch {
-    margin: auto;
     background-color: #C5EC8B;
     border: none;
     color: #030303;
@@ -94,7 +92,7 @@ button {
     font-weight: bold;
     cursor: pointer;
     border-radius: 10px;
-    margin-left: 43.5%;
+    margin-left: 22.5%;
     margin-top: 2%;
 }
 
@@ -130,7 +128,6 @@ button {
     margin: 10px 1px;
     cursor: pointer;
     border-radius: 10px;
-    margin-left: 40%;
 }
 
 h2 {
@@ -219,10 +216,11 @@ h4 {
 .matchcard2 {
     border: 0.5px solid #4f4f4f;
     padding: 2px 16px;
+    text-align: center;
     margin:auto;
     margin-top: 3%;
     transition: 0.3s;
-    width: 10%;
+    width: 25%;
     height: 30%;
     border-radius: 10px;
 }
