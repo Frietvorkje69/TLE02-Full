@@ -1,0 +1,39 @@
+.Header {
+    background-color: #C5EC8B;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.Subheader {
+    background-color: #DFE4DC;
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 225px;
+}
+
+body {
+    margin: 0px;
+}
+
+
+.custom-button {
+    background-color: #C5EC8B;
+    border: none;
+    color: #030303;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 10px 80px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+

@@ -1308,7 +1308,7 @@ function createMachine(data) {
     }
     const prediction = machine.classify([giveGrade, takeGrade])
     console.log(prediction)
-    const { name, email } = prediction;
+    const {name, email} = prediction;
     feedback.innerHTML = `Je hebt een buddy gevonden!`
     feedback2.innerHTML = `Neem contact op met jouw buddy: ${prediction}!`
     buddy.style.visibility = "visible";
@@ -1317,7 +1317,7 @@ function createMachine(data) {
 }
 
 // waarden invullen voor een voorspelling
-form.addEventListener("submit", (e) =>{
+form.addEventListener("submit", (e) => {
     e.preventDefault()
     giveGrade = parseInt(e.target[0].value)
     takeGrade = parseInt(e.target[1].value)

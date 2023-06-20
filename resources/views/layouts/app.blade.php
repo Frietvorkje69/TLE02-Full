@@ -7,7 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>StudyBuddy</title>
+    <link rel="icon" href="{{ asset('images/icon.png') }}" type="image/png">
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -168,43 +169,30 @@
         <div class="custom-card">
             <a href="/home">Home</a>
         </div>
-        <!-- Right Side Of Navbar -->
-        <ul class="navbar-nav ms-auto">
-            <!-- Authentication Links -->
-            @guest
-                @if (Route::has('login'))
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                    </li>
-                @endif
-
-                @if (Route::has('register'))
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                    </li>
-                @endif
-            @else
-                <li class="nav-item dropdown">
-                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                        {{ Auth::user()->name }}
-                    </a>
-
-                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ route('users.edit') }}">
-                            My Profile
-                        </a>
-                        <a class="dropdown-item" href="{{ route('logout') }}"
-                           onclick="event.preventDefault();
+        @guest
+        @if (Route::has('login'))
+        <div class="custom-card">
+                <a href="{{ route('login') }}">{{ __('Inloggen') }}</a>
+        </div>
+        <div class="custom-card">
+                <a  href="{{ route('register') }}">{{ __('Registreren') }}</a>
+        </div>
+        @endif
+        @else
+            <div class="custom-card">
+                <a href="{{ route('logout') }}"
+                   onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                            {{ __('Logout') }}
-                        </a>
+                    {{ __('Logout') }}
+                </a>
+                <form id="logout-form" action="{{ route('Uitloggen') }}" method="POST" class="d-none">
+                    @csrf
+                </form>
+            </div>
+    @endguest
+        <!-- Right Side Of Navbar -->
+        <ul>
 
-                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                            @csrf
-                        </form>
-                    </div>
-                </li>
-            @endguest
         </ul>
     </div>
 

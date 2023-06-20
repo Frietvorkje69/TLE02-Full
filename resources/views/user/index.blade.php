@@ -1,4 +1,5 @@
-@extends('layouts.app')
+@if(!auth())
+    @extends('layouts.app')
 @section('content')
     @php
         $give = $user->give;
@@ -8,7 +9,7 @@
     <link rel="stylesheet" href="{{ URL::asset('match.css') }}">
     <section>
 
-        <div class="Subheader"> Op basis van jouw cijfers en voorkeuren zal je gematched worden met een andere student
+        <div class="Subheader"> Op basis van jouw cijfers en voorkeuren zal je gematcht worden met een andere student
             via Machine learning.
             <br>
             Er wordt in ons systeem gezocht naar de beste student die bij jouw past! Dit wordt gedaan door te kijken
@@ -56,3 +57,6 @@
     <script src="https://stud.hosted.hr.nl/1028402/scatterplot.js"></script>
     <script src="https://stud.hosted.hr.nl/1028402/predict.js"></script>
 @endsection
+@else
+    <meta http-equiv="refresh" content="0; url='/home'"/>
+@endif
